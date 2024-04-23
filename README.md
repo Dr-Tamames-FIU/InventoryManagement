@@ -1,4 +1,4 @@
-4# Group 7: Inventory Management Project
+# Group 7: Inventory Management Project
 
 Team Members: **Daniel Escobar, Bielky Ruiz, Luisana Barajas**
 
