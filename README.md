@@ -2,13 +2,13 @@
 
 Team Members: **Daniel Escobar, Bielky Ruiz, Luisana Barajas**
 
-Project Outline: 
+# Project Outline: 
 
 We will be implementing two Data Structures: Hashtable and LinkedList to create an Inventory Management Project.
 
 The Hashtable will store the aisles of the supermarket while the LinkedList store the scanning number of different products within each aisle. If the user inputs a specific scanning number, they will retrieve data of name and quantity in stock of that specific product. 
 
-Project Example: 
+# Project Example: 
 
 <div>
     <a href="https://www.loom.com/share/e1095804ec4848beae61356e1c32129a">
@@ -20,14 +20,15 @@ Project Example:
   </div>
 
 
-Phases of the project:
+# Phases of the project:
 
 1. Project initiation: We met on Discord to talk about the ideas we had. We ended up choosing a project that meets the requirement and can be optimized for the future. On this meeting we created our branches and talked about how to push the code into each branch.  
 2. Project planning: We agreed to all work on the pseudocode and maintain everyone updated through our Whatsapp groupchat. We all agreed to work on the pseudocode and set the next meeting. 
 4. Project execution: We met to review the pseudocode and distribute the work. First, we worked on the LinkedList and then we worked on the Hashtable. Last, we decide to work on testing and debugging any errors.
 5. Project monitoring: We had last meetings to overview the code we had. We had a few issues with pushing our code into main, but had meetings and merged the code together and pushed into main.
 
-Project Overview:  
+# Project Overview:  
+
 1. ProductNode:
     - Purpose: will store attributes of a product in the inventory
     - Attributes: amount, id and name
@@ -44,7 +45,7 @@ Project Overview:
 Both MyInventory and shelfList have its own Interface and Testing file to make sure that all of the methods were working correctly. 
 
 
-For optimization:
+# For optimization:
 - Can we speed up product lookup? 
 - Identification of products low in stock
 - User interface of web
