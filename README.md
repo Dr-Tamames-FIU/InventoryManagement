@@ -51,7 +51,14 @@ Both MyInventory and shelfList have its own Interface and Testing file to make s
 - User interface of web
 - Delete the products once the amount is 0 
 
-Sketched notes from first meeting: 
+# Discord Meetings Log: 
+Sketched notes from first meeting 03/29/24:
 [data Structures Project 2 (1).pdf](https://github.com/Dr-Tamames-FIU/cop-3530-group-project-team-7/files/14775995/data.Structures.Project.2.1.pdf)
+- 03/29/2024: 1 hour
+- 04/10/2024: 39 minutes
+- 04/11/2024: 2 hours 
+- 04/18/2024: 2 hours
+- 04/20/2024: 2 hours
+- 04/22/2024: 1 hour
 
 
