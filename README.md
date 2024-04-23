@@ -1,4 +1,4 @@
-# Group 7: Inventory Management Project
+4# Group 7: Inventory Management Project
 
 Team Members: **Daniel Escobar, Bielky Ruiz, Luisana Barajas**
 
@@ -8,34 +8,41 @@ We will be implementing two Data Structures: Hashtable and LinkedList to create 
 
 The Hashtable will store the aisles of the supermarket while the LinkedList store the scanning number of different products within each aisle. If the user inputs a specific scanning number, they will retrieve data of name and quantity in stock of that specific product. 
 
-For example:
+Project Example: 
 
-User inputs 65
-Computer retrieves "Product Found: Pasta, 17 in-stock" 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e1095804ec4848beae61356e1c32129a?sid=331ec1c5-e1f1-421a-a181-46762c0c132d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-In case the product is out of stock, it will be deleted from the LinkedList
+Phases of the project:
 
-As of March 27th, we are creating the pseudocode. We will have the following files:
+1. Project initiation: We met on Discord to talk about the ideas we had. We ended up choosing a project that meets the requirement and can be optimized for the future. On this meeting we created our branches and talked about how to push the code into each branch.  
+2. Project planning: We agreed to all work on the pseudocode and maintain everyone updated through our Whatsapp groupchat. We all agreed to work on the pseudocode and set the next meeting. 
+4. Project execution: We met to review the pseudocode and distribute the work. First, we worked on the LinkedList and then we worked on the Hashtable. Last, we decide to work on testing and debugging any errors.
+5. Project monitoring: We had last meetings to overview the code we had. We had a few issues with pushing our code into main, but had meetings and merged the code together and pushed into main.
 
-1. Product Class
+Project Overview:  
+1. ProductNode:
     - Purpose: will store attributes of a product in the inventory
-    - Attributes: scanning number, name of product and quantity left in stock
+    - Attributes: amount, id and name
     - Methods: constructors, to get and set attributes
-2. Inventory Management System 
-    - Purpose: manages the aisles and products within the supermarketing inventory 
+2. MyInventory:
+    - Purpose: hashtable that manages the aisles and products within the market inventory. It calls some methods from the LinkedList.
     - Attributes: aisles and linkedlist (products)
-    - Methods: add a product, find the product by the scanning number, update product quantity and remove product 
-4. Main Class
+    - Methods: add product, remove product, find product by id, get report, provide size, clear aisles and check if inventory is empty
+3. shelfList:
+    - Purpose: LinkedList with collection of products from an aisle
+    - Attributes: head, tail and size
+    - Methods: add a product, string report, size, check if it is empty, removes a product, find product by name, and remove all
+  
+Both MyInventory and shelfList have its own Interface and Testing file to make sure that all of the methods were working correctly. 
 
 
-
-To be considered:
-- LinkedList will allow efficient insertion and deletion
+For optimization:
 - Can we speed up product lookup? 
-- How will we be handling out-of-stock products?
-- Can we identify products low in stock? 
-- will there be a user inferface of web, command-line? 
+- Identification of products low in stock
+- User interface of web
+- Delete the products once the amount is 0 
 
 Sketched notes from first meeting: 
 [data Structures Project 2 (1).pdf](https://github.com/Dr-Tamames-FIU/cop-3530-group-project-team-7/files/14775995/data.Structures.Project.2.1.pdf)
+
 
