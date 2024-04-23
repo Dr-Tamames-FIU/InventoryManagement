@@ -10,8 +10,6 @@ The Hashtable will store the aisles of the supermarket while the LinkedList stor
 
 Project Example: 
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e1095804ec4848beae61356e1c32129a?sid=331ec1c5-e1f1-421a-a181-46762c0c132d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 <div>
     <a href="https://www.loom.com/share/e1095804ec4848beae61356e1c32129a">
       <p>Cleaning and Computer Demands - Watch Video</p>
